@@ -1,0 +1,251 @@
+body {
+   
+
+}
+
+
+
+header {
+    background-color:grey;
+
+   width: 793px;
+    display: flex !important;
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    height:75px;
+    justify-content:center;
+}
+
+#search {
+padding-bottom: 12px;
+padding-left:20px;
+}
+
+a:visited {
+    color: green;
+}
+
+#logo a:hover {
+    color: white;
+}
+
+#nav a:hover {
+    color: green;
+}
+
+#social_link a:hover {
+    color: white;
+}
+
+#logo {
+    background-color:;
+    justify-content: left;
+    height: 70px;
+  display: flex;
+    box-sizing: border-box;
+    flex-grow: 1;
+}
+
+
+
+
+
+#nav {
+    background-color:  rgb(255, 255, 255, );
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    flex-grow: 10;
+  padding-left:130px;
+  padding-bottom:
+    
+}
+
+#nav a {
+    color: rgb(17, 20, 20);
+    padding: 0 20px;
+    text-decoration: none; 
+    text-transform: uppercase;
+}
+
+ul{
+    display: flex;
+    padding: 0;
+}
+
+ul li{
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+#social_link {
+    background-color:  rgb(255, 255, 255, );
+    
+    height: 80px;
+
+    display: flex;
+    margin-left:auto;
+    margin-right:auto;
+    
+
+}
+
+#social_link a {
+    color: black;
+}
+
+
+#diven {
+height:400px;
+width: 800px;
+display:flex;   
+margin:0 auto;
+background-color: white;
+flex-wrap:wrap;
+justify-content:space-evenly;
+padding-top:30px;
+
+
+}
+
+#main-box-box {
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    width:260px;
+    padding-right:25px;
+    border: 1.5px solid black;
+    margin: 2.5px 0 2.5px 0;
+    padding-top:20px;
+    padding-left:40px;
+}
+
+h3, p, button  {
+    
+}
+main {
+    background-color: white;
+    height: auto;
+    
+}
+
+.main-box {
+    background-color: red;
+    height: 160px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#main_box {
+    height:auto;
+    background-color: white;
+   
+    
+}
+
+
+
+footer {
+    background-color: white;
+    padding-left:275px;
+    display: flex;
+  /* margin-left:300px;*/
+    color: black;
+    padding-top:150px;
+    width: 1260px;
+  
+
+}
+
+#footer_container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#footer_top p, #footer_top h2 {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+#footer_bottom {
+    display: flex;
+}
+
+#footer_box {
+    border: 1px solid white;
+    padding: 20px;
+    flex:1;
+    box-sizing: border-box;
+
+}
+
+footer p, footer h3 {
+    margin: 0;
+    padding: 0;
+}
+
+#footer_box:not(:last-child) {
+    border-right: none;
+}
+
+footer h3 {
+    margin: 0 0 10px 0;
+    color: rgb(19, 51, 19);
+    text-shadow: 1px 1px 0 darkgreen;
+    
+}
+
+#footer_social_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#footer_social_box a {
+    width: 27px;
+    height: 40px;
+    margin: 0 0 0 5px;
+    box-sizing: border-box;
+    padding-right:50px;
+}
+
+#footer_text {
+    display: flex;
+    font-size: 9px;
+    margin: 15px 0 0 0;
+}
+
+#footer_text p {
+    flex:1;
+}
+
+footer_text p:last-child(2) {
+    text-align: center;
+    
+}
+
+footer_text p:nth-child(3) {
+    text-align: right;
+}
+
+
+
+
+#caro-css {
+    width:824px;
+}
+
+
+
+#newtry {
+    text-align:right;
+    font-size:2em;
+}
